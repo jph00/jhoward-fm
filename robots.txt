@@ -1,1 +1,1 @@
-Sitemap: https://jph00.github.io/jhoward-fm/sitemap.xml
+Sitemap: https://jeremy.fast.ai/sitemap.xml
