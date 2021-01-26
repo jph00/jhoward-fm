@@ -3,7 +3,7 @@ description: Jeremy Howard's Personal Website
 github_username: jph00
 github_repo: "jhoward-fm"
 url: "https://jeremy.fast.ai"
-baseurl: ""
+baseurl: "/jhoward-fm"
 minima:
   social_links:
     twitter: jeremyphoward
