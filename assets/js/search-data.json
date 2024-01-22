@@ -28,13 +28,7 @@
   
 
   
-  
-
-  
-  
-
-  
-      ,"page8": {
+      ,"page6": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://jeremy.fast.ai/robots.txt",
