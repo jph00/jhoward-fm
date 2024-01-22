@@ -6,10 +6,10 @@ url: "https://jeremy.fast.ai"
 baseurl: ""
 minima:
   social_links:
-    - { platform: twitter, user_url: "https://twitter.com/jeremyphoward" }
-    - { platform: github, user_url: "https://github.com/jph00/" }
-use_math: true
+    twitter: jeremyphoward
+    github: jph00
 
+use_math: true
 show_description: true
 show_image: true
 
