@@ -1,80 +1,4 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Jeremy Howard | Jeremy Howard’s Personal Website</title>
-<meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Jeremy Howard" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Jeremy Howard’s Personal Website" />
-<meta property="og:description" content="Jeremy Howard’s Personal Website" />
-<link rel="canonical" href="https://jeremy.fast.ai/" />
-<meta property="og:url" content="https://jeremy.fast.ai/" />
-<meta property="og:site_name" content="Jeremy Howard" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Jeremy Howard" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Jeremy Howard’s Personal Website","headline":"Jeremy Howard","name":"Jeremy Howard","url":"https://jeremy.fast.ai/"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jeremy.fast.ai/feed.xml" title="Jeremy Howard" /><link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
-    <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        renderMathInElement( document.body, {
-        delimiters: [
-            {left: "$$", right: "$$", display: true},
-            {left: "[%", right: "%]", display: true},
-            {left: "$", right: "$", display: false}
-        ]}
-        );
-    });
-    </script>
-
-
-<script>
-function wrap_img(fn) {
-    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
-        var elements = document.querySelectorAll(".post img");
-        Array.prototype.forEach.call(elements, function(el, i) {
-            if (el.getAttribute("title") && (el.className != "emoji")) {
-                const caption = document.createElement('figcaption');
-                var node = document.createTextNode(el.getAttribute("title"));
-                caption.appendChild(node);
-                const wrapper = document.createElement('figure');
-                wrapper.className = 'image';
-                el.parentNode.insertBefore(wrapper, el);
-                el.parentNode.removeChild(el);
-                wrapper.appendChild(el);
-                wrapper.appendChild(caption);
-            }
-        });
-    } else { document.addEventListener('DOMContentLoaded', fn); }
-}
-window.onload = wrap_img;
-</script>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function(){
-    // add link icon to anchor tags
-    var elem = document.querySelectorAll(".anchor-link")
-    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
-    });
-</script>
-</head>
-<body><header class="site-header">
-
-  <div class="wrapper"><a class="site-title" rel="author" href="/">Jeremy Howard</a></div>
-</header>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <div class="home"><figure style="float: right;">
+<div class="home"><figure style="float: right;">
   <img class="image" width="250" src="/images/jeremy.jpg" />
   
 </figure>
@@ -84,14 +8,14 @@ window.onload = wrap_img;
 <h2 id="deep-learning-and-machine-learning">Deep Learning and Machine Learning</h2>
 
 <ul>
-  <li><a href="https://course.fast.ai">course.fast.ai</a>, which is (AFAIK) the most widely-used deep learning course in the world, and has launched many careers in research, industry, and startups. The Economist featured the course in their article “<em><a href="https://www.economist.com/business/2018/10/27/new-schemes-teach-the-masses-to-build-ai">New schemes teach the masses to build AI</a> –
-Treating it like a craft is paying dividends</em>”. I am an honorary <a href="https://www.eait.uq.edu.au/article/2022/03/renowned-ai-expert-joins-uq-help-develop-local-talent">professor at the University of Queensland</a> and will be teaching future iterations of the course from there, and making them available online for free.</li>
+  <li><a href="https://www.answer.ai/">Answer.AI</a> (with <a href="https://en.wikipedia.org/wiki/Eric_Ries">Eric Ries</a>), a new kind of AI R&amp;D lab which creates practical end-user products based on foundational research breakthroughs.</li>
+  <li>The <a href="https://towardsdatascience.com/understanding-ulmfit-and-elmo-the-shift-towards-transfer-learning-in-nlp-b5d8e2e3f664">ULMFiT algorithm</a> for training large language models (LLMs), on which all modern LLMs (including ChatGPT, Bard, etc) are based, and which helped to <a href="https://www.nytimes.com/2018/11/18/technology/artificial-intelligence-language.html">crack the code of natural language</a>.</li>
+  <li><a href="https://course.fast.ai">course.fast.ai</a>, which is the longest-running and (AFAIK) most widely-used deep learning course in the world, and has launched many careers in research, industry, and startups. The Economist featured the course in their article “<em><a href="https://www.economist.com/business/2018/10/27/new-schemes-teach-the-masses-to-build-ai">New schemes teach the masses to build AI</a> –
+Treating it like a craft is paying dividends</em>”. I am an honorary <a href="https://www.eait.uq.edu.au/article/2022/03/renowned-ai-expert-joins-uq-help-develop-local-talent">professor at the University of Queensland</a> and have taught parts of the course from there.</li>
   <li><a href="https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527">Deep Learning for Coders with Fastai and PyTorch: AI Applications Without a PhD</a>, a book, based on the course, which has 5 stars on Amazon. Google’s Director of Research, Peter Norvig, says “<em>The book does an impressive job of covering the key applications of deep learning in computer vision, natural language processing, and tabular data processing, but also covers key topics like data ethics that some other books miss. Altogether, this is one of the best sources for a programmer to become proficient in deep learning.</em>”</li>
-  <li>The <a href="https://docs.fast.ai/">fastai software library</a>, one of the world’s most popular deep learning frameworks. The underlying principles have been published in the peer reviewed journal <a href="https://www.mdpi.com/2078-2489/11/2/108">Information</a>, and the source code is <a href="https://github.com/fastai/fastai/">freely available</a>. I’ve created many other software libraries and tools, including <a href="https://nbdev.fast.ai/">nbdev</a>, which is rapidly gaining many fans for making it much easier to create high-quality software, and <a href="https://fastpages.fast.ai/fastpages/jupyter/2020/02/21/introducing-fastpages.html">fastpages</a>, which powers the blog you’re reading now</li>
-  <li><a href="https://forums.fast.ai">forums.fast.ai</a>, which is (AFAIK) the most active deep learning discussion community in the world</li>
+  <li>The <a href="https://docs.fast.ai/">fastai software library</a>, one of the world’s most popular deep learning frameworks. The underlying principles have been published in the peer reviewed journal <a href="https://www.mdpi.com/2078-2489/11/2/108">Information</a>, and the source code is <a href="https://github.com/fastai/fastai/">freely available</a>. I’ve created many other software libraries and tools, including <a href="https://nbdev.fast.ai/">nbdev</a>, which is rapidly gaining many fans for making it much easier to create high-quality software, and <a href="https://fastpages.fast.ai/fastpages/jupyter/2020/02/21/introducing-fastpages.html">fastpages</a>, which powers the blog you’re reading now.</li>
   <li><a href="https://www.wired.com/2011/12/kaggle/">Kaggle</a>, the world’s largest data science community, where I was the founding President and Chief Scientist (and reached #1 on the global machine learning competition leaderboard!)</li>
-  <li><a href="https://www.technologyreview.com/2018/08/10/141098/small-team-of-ai-coders-beats-googles-code/">Record breaking</a> deep learning performance on <a href="https://www.theverge.com/2018/5/7/17316010/fast-ai-speed-test-stanford-dawnbench-google-intel">Dawnbench</a>, with some of my brilliant students</li>
-  <li>The <a href="https://towardsdatascience.com/understanding-ulmfit-and-elmo-the-shift-towards-transfer-learning-in-nlp-b5d8e2e3f664">ULMFiT algorithm</a>, which helped to <a href="https://www.nytimes.com/2018/11/18/technology/artificial-intelligence-language.html">crack the code of natural language</a></li>
+  <li><a href="https://www.technologyreview.com/2018/08/10/141098/small-team-of-ai-coders-beats-googles-code/">Record breaking</a> deep learning performance on <a href="https://www.theverge.com/2018/5/7/17316010/fast-ai-speed-test-stanford-dawnbench-google-intel">Dawnbench</a>, with some of my brilliant students.</li>
 </ul>
 
 <h2 id="medicine">Medicine</h2>
@@ -141,33 +65,3 @@ Treating it like a craft is paying dividends</em>”. I am an honorary <a href="
    <!-- Assemble final sorted posts array -->
   
   </div>
-      </div>
-    </main><footer class="site-footer h-card">
-  <data class="u-url" href="/"></data>
-
-  <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
-        <p class="feed-subscribe">
-          <a href="/feed.xml">
-            <svg class="svg-icon orange">
-              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
-            </svg><span>Subscribe</span>
-          </a>
-        </p>
-      </div>
-      <div class="footer-col">
-        <p>Jeremy Howard&#39;s Personal Website</p>
-      </div>
-    </div>
-
-    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/jph00" target="_blank" title="jph00"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/jeremyphoward" target="_blank" title="jeremyphoward"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
-</div>
-
-  </div>
-
-</footer>
-</body>
-
-</html>
