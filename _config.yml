@@ -38,7 +38,7 @@ html_escape:
 
 # Everything below here should be left alone. Modifications may break fastpages
 future: true
-theme: minima
+remote_theme: jekyll/minima@<296bf6b872b8450529bee1e48d0ca9be200a4be5
 plugins:
   - jekyll-feed
   - jekyll-gist
